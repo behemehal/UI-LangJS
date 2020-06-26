@@ -25,7 +25,7 @@ function sck (cname, cvalue, exdays) {
     return ''
   }
   window.lang = {
-    loadEmitter,
+    loadEmitter: null,
     language: gck('lang') || (navigator.language === 'en-US' || navigator.language === 'tr-TR') ? navigator.language : 'en-US',
     getPhrase: id => window.lang.data[window.lang.language][id],
     setPhrase: (el, body) => { body.type === 'innerHTML' ? el.innerHTML = body.text : el.setAttribute(body.type, body.text) },
