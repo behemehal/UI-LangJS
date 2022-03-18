@@ -1,4 +1,4 @@
-# UI-LangJS
+# UI-LangJS [DEPRECATED]
 Site language tool used in behemehal services
 
 
